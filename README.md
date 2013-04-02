@@ -1,4 +1,3 @@
-
 Revised Edition .. Fixed Bugs Added Features...Improved Efficiency Of DB....
 
 To Run The Project Please Run Main.py File..
@@ -14,3 +13,5 @@ Queries :
 4)select max ( R&D_Ratio , 1 ) , Company_Name from DB where Year = 1954
 
 5)select Total_Expenses from DB where Ticker_Symbol = tzs And Quarter = Q1
+
+..Development Stopped
