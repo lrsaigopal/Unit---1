@@ -1,8 +1,3 @@
-'''
-Created on 16-Feb-2013
-
-@author: Sai Gopal,Dhiren,Rahul
-'''
 import copy
 from DB.Database import Remove_From_DB, Display_DB, Call_All, Sort_DB
 from DB import DB

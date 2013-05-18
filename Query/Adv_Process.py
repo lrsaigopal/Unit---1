@@ -1,8 +1,3 @@
-'''
-Created on 16-Feb-2013
-
-@author: Sai Gopal
-'''
 import types
 def Get_Type(c):
         if c == '>' :
