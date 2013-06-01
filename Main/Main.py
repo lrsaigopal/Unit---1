@@ -1,3 +1,5 @@
+''' Starting Interface For User'''
+
 from Query.Process_Query import Rec_Query
 from DB.Database import Create_Rand_DB
 from DB import DB
