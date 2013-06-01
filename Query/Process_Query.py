@@ -4,7 +4,7 @@ from DB import DB
 from Query.Adv_Process import Get_Query
 
 
-def Check_It(a):
+def Check_It(a):#validates the entered query
 
     import re    
     re1='(select)'    # Word 1
@@ -149,12 +149,12 @@ def Check_It(a):
     else : 
         return 0
 
-def Validate_Query(Que):
+def Validate_Query(Que):#validation of query
     #return 1
     return Check_It(Que)
 
 
-def Pro_Query(Que, DB):
+def Pro_Query(Que, DB):#begin the processing of query and then display the results 
     NDB=copy.deepcopy(DB)
     NDB=Call_All(NDB)
     temp = Que.split(' ')
@@ -234,7 +234,7 @@ def Pro_Query(Que, DB):
     else:    
         pass
 
-def top(db,cname,num):
+def top(db,cname,num):#filter out sucessful and unsucessful resukts
     new_db=[]
     db=Sort_DB(db,cname)
     for i in range(num):
